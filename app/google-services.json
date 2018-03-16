@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "250748620066",
+    "firebase_url": "https://spartan-2c8c2.firebaseio.com",
+    "project_id": "spartan-2c8c2",
+    "storage_bucket": "spartan-2c8c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250748620066:android:06cd7c72f5729c9c",
+        "android_client_info": {
+          "package_name": "com.example.ace.spartan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250748620066-eg6s0n58kpb44mm19nm3fmfjonfg6ian.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ace.spartan",
+            "certificate_hash": "beade381ac7ae0f847c94e6664da6fa11757220e"
+          }
+        },
+        {
+          "client_id": "250748620066-t4nk7hce8l0vo7nhue24d7pled4so67u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVIdKmSMWOV5Vg0uIfGsKinfwUHfq91qY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250748620066-t4nk7hce8l0vo7nhue24d7pled4so67u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

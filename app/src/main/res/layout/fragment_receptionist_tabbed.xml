@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content"
+    tools:context="com.example.ace.spartan.ReceptionistTabbedActivity$PlaceholderFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:text="Receptionist"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/SCAN"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Scan Patient"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:background="@drawable/buttonshap"
+      />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Patient Details"
+    android:textStyle="bold|italic"
+    android:textSize="20dp"
+    android:textAlignment="center"
+    android:background="@drawable/content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:textColor="#2b1c35"/>
+    <TextView
+        android:id="@+id/USERDETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:textSize="20dp"
+
+        android:background="@drawable/content"
+        android:textColor="#484746"
+        android:textStyle="bold"
+     />
+    <TextView
+        android:id="@+id/VERIFIED"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:drawableLeft="@drawable/verified1"
+android:textSize="20dp"
+android:textColor="#1c7ed9"
+        android:text=" Verified!"
+
+        android:layout_marginTop="12dp"
+        />
+</LinearLayout>
+</RelativeLayout>

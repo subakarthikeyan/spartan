@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text=" Your Profile"
+
+    android:textSize="30dp"
+    android:textColor="#000"
+    android:textStyle="italic|bold"
+    />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/content"
+        android:layout_marginTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text=" Name\n -"
+    android:textSize="20dp"
+        android:textColor="#000"
+    android:id="@+id/NAME"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="50dp"
+        android:background="@drawable/content"
+        android:text=" Email\n -"
+        android:textSize="20dp"
+        android:id="@+id/EMAIL"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:text=" Hospital\n -"
+        android:background="@drawable/content"
+        android:textSize="20dp"
+        android:id="@+id/HOSPITAL"/>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Change Password"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/CHANGE_PASS"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/PASS"
+            android:inputType="textPassword"
+            android:hint="New Password"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="70dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="60dp"
+            android:hint="Confirm Password"
+            android:id="@+id/CONFIRM_PASS"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/SavePASS"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textColor="#f17d4c"
+        android:textSize="20dp"
+        android:background="@drawable/backtheam"/>
+</LinearLayout>
