@@ -60,7 +60,6 @@ if(a==2){
                 if(isNetworkAvailable()){
                 if(activity_identifiers.inserts(2)==true){
                     startActivity(intent);
-                    //finish();
                 }}
                 else {
                     Toast.makeText(getApplicationContext(),"Please Connect to your Mobile Data/wifi!!!",Toast.LENGTH_LONG).show();
